@@ -1,5 +1,8 @@
+# The beeper may be on any corner. Please collect the beeper,
+# bring it to the starting square, and then face karel in the
+# starting orientation.
+
 from stanfordkarel import *
-from studentKarelModule import *
 
 def main():
   
@@ -12,5 +15,4 @@ if __name__ == "__main__":
     import random
     return random.randint(a,b)
   
-  defineCallingProgram(__file__)
   run_karel_program(f"8x1b{randint(1,8)}")

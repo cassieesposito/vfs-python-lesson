@@ -1,1 +1,2 @@
+# Requires python3-tk which is not available through pip, but is typically included in distro repos
 stanfordkarel == 0.2.7
